@@ -5,7 +5,6 @@ h3 {
 }
 
 p {
-  color: #b6b8b5;
   font-family: "Roboto", sans-serif;
 }
 
@@ -49,24 +48,44 @@ button {
   gap: 8px;
 }
 
-.main-title {
-  font-weight: 900;
-  font-family: "Roboto", sans-serif;
-}
-
-.sample {
-  width: 200px;
-  height: 200px;
-  background: gray;
-  display: flex;
-  color: #f9faf8;
-  text-align: center;
-}
-
 .first-section {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-column {
   background-color: #1f2937;
   padding: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.subtext {
+  color: #b6b8b5;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sample-img {
+  width: 600px;
+  height: 200px;
+  background: gray;
+  color: #f9faf8;
+  text-align: center;
 }
