@@ -38,8 +38,8 @@ button {
   justify-content: space-between;
   background-color: #1f2937;
   align-items: center;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 170px;
+  padding-right: 170px;
 }
 
 .links-right {
@@ -62,8 +62,10 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  margin-right: 0px;
+  margin-left: 170px;
 }
 
 .main-title {
@@ -78,14 +80,78 @@ button {
   color: #b6b8b5;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  padding: 0px;
-  margin: 0px;
+  padding: 4px;
+  margin: 4px;
 }
 
 .sample-img {
   width: 600px;
-  height: 200px;
-  background: gray;
+  height: 150px;
+  background: rgb(124, 124, 124);
   color: #f9faf8;
   text-align: center;
+  margin-right: 170px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 256px;
+  margin-right: 256px;
+  margin-bottom: 100px;
+}
+
+.second-title {
+  font-size: 36px;
+  color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.img-boxes {
+  border: solid 3px #3882f6;
+  width: 125px;
+  height: 125px;
+  border-radius: 10px;
+}
+
+.boxes {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.text-boxes {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #444647;
+}
+
+.third-section {
+  background: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.quote-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
 }
