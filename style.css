@@ -69,7 +69,7 @@ button {
   margin-top: 128px;
   margin-bottom: 128px;
   margin-right: 0px;
-  margin-left: 170px;
+  flex-basis: 500px;
 }
 
 .main-title {
@@ -94,7 +94,8 @@ button {
   background: rgb(124, 124, 124);
   color: #f9faf8;
   text-align: center;
-  margin-right: 170px;
+  display: flex;
+  flex-basis: 500px;
 }
 
 .second-section {
@@ -103,8 +104,6 @@ button {
   justify-content: center;
   align-items: center;
   margin-top: 75px;
-  margin-left: 256px;
-  margin-right: 256px;
   margin-bottom: 100px;
 }
 
@@ -122,12 +121,20 @@ button {
   border-radius: 10px;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  flex: 0 1 200px;
+}
+
 .boxes {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 }
 
 .text-boxes {
@@ -137,6 +144,7 @@ button {
 }
 
 .third-section {
+  border: solid 3px black;
   background: #e5e7eb;
   display: flex;
   justify-content: center;
@@ -145,12 +153,13 @@ button {
 }
 
 .quote {
+  border: solid 3px black;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
-  margin-right: 300px;
-  margin-left: 300px;
+  margin-right: 200px;
+  margin-left: 200px;
   padding-top: 100px;
 }
 
