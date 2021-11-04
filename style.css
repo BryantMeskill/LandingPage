@@ -144,14 +144,12 @@ button {
 }
 
 .third-section {
-  border: red 2px solid;
   background: #e5e7eb;
   display: flex;
   justify-content: center;
 }
 
 .quote-container {
-  border: solid 3px black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,24 +176,21 @@ button {
 }
 
 .fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
   background-color: #3882f6;
   margin: 150px;
   padding: 10px 100px;
   display: flex;
-  flex: 1 1 auto;
   justify-content: center;
+  flex: 0 1 700px;
   align-items: center;
   border-radius: 10px;
   border-color: none;
-}
-
-.action {
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex: 1 0;
 }
 
 .fourth-title {
@@ -213,10 +208,6 @@ button {
 
 .action-button {
   border: solid 2px white;
-}
-
-.button-row {
-  display: flex;
 }
 
 .footer {
