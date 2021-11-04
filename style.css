@@ -144,22 +144,26 @@ button {
 }
 
 .third-section {
-  border: solid 3px black;
+  border: red 2px solid;
   background: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  border: solid 3px black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex: 0 1 1000px;
 }
 
 .quote {
-  border: solid 3px black;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
-  margin-right: 200px;
-  margin-left: 200px;
   padding-top: 100px;
 }
 
@@ -178,6 +182,7 @@ button {
   margin: 150px;
   padding: 10px 100px;
   display: flex;
+  flex: 1 1 auto;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -186,6 +191,11 @@ button {
 
 .action {
   padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 0;
 }
 
 .fourth-title {
