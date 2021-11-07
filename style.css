@@ -94,9 +94,9 @@ button {
 }
 
 .sample-img {
-  width: 600px;
-  height: 150px;
-  background: rgb(124, 124, 124);
+  width: 500px;
+  height: 350px;
+  background: #1f2937;
   color: #f9faf8;
   text-align: center;
   display: flex;
@@ -120,7 +120,6 @@ button {
 }
 
 .img-boxes {
-  border: solid 3px #3882f6;
   width: 125px;
   height: 125px;
   border-radius: 10px;
