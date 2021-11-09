@@ -3,20 +3,6 @@ body {
 }
 
 .loading {
-  animation: slide 0.7s;
-}
-
-@keyframes slide {
-  from {
-    margin-left: 1000px;
-  }
-
-  to {
-    margin-left: 0px;
-  }
-}
-
-.loading {
   color: black;
   display: flex;
   flex-direction: column;
