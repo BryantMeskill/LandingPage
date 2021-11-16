@@ -64,6 +64,12 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background: #f9faf8;
+  color: #3882f6;
+  transition: 1s;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -151,6 +157,7 @@ button {
   width: 125px;
   height: 125px;
   border-radius: 10px;
+  animation: slide-in 1s;
 }
 
 .info {
@@ -160,6 +167,19 @@ button {
   align-items: center;
   padding-bottom: 120px;
   flex: 0 1 200px;
+  animation: slide-in 1s;
+}
+
+@keyframes slide-in {
+  from {
+    margin: 500px;
+    opacity: 0;
+  }
+
+  to {
+    margin: 0px;
+    opacity: 1;
+  }
 }
 
 .boxes {
@@ -173,6 +193,7 @@ button {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #444647;
+  animation: slide-in 0.5s;
 }
 
 .third-section {
