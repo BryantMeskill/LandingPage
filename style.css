@@ -157,7 +157,6 @@ button:hover {
   width: 125px;
   height: 125px;
   border-radius: 10px;
-  animation: slide-in 1s;
 }
 
 .info {
@@ -167,7 +166,6 @@ button:hover {
   align-items: center;
   padding-bottom: 120px;
   flex: 0 1 200px;
-  animation: slide-in 1s;
 }
 
 @keyframes slide-in {
@@ -187,13 +185,13 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: slide-in 1s;
 }
 
 .text-boxes {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #444647;
-  animation: slide-in 0.5s;
 }
 
 .third-section {
@@ -208,6 +206,7 @@ button:hover {
   align-items: center;
   flex-direction: column;
   flex: 0 1 1000px;
+  animation: slide-in 0.8s;
 }
 
 .quote {
@@ -233,6 +232,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: slide-in 1s;
 }
 
 .action {
@@ -257,7 +257,7 @@ button:hover {
   color: #f9faf8;
   margin-right: 90px;
   margin-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .action-button {
